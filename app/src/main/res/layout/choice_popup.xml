@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="165dp"
+    android:layout_gravity="center"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:background="@color/orange"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/hitBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/hit" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:background="@color/bluelight"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/stayBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/stay" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Black Jack</string>
+    <string name="enterplayers">Number of players want to play</string>
+    <string name="proceed">Proceed</string>
+    <string name="playerProfile">Player Profiles</string>
+    <string name="name">Name</string>
+    <string name="age">Age</string>
+    <string name="hit">HIT</string>
+    <string name="stay">STAY</string>
+    <string name="start_typing">start typing...</string>
+</resources>

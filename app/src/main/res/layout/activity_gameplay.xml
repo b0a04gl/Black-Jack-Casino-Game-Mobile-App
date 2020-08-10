@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Gameplay">
+
+    <TextView
+        android:id="@+id/cardValue"
+        android:layout_width="107dp"
+        android:layout_height="53dp"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.918" />
+
+    <Button
+        android:id="@+id/continueBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="ShowPopup"
+        android:text="continue"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.792" />
+
+    <TextView
+        android:id="@+id/player_name"
+        android:layout_width="203dp"
+        android:layout_height="54dp"
+        android:gravity="center"
+        android:text="TextView"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
+
+    <RelativeLayout
+        android:layout_width="409dp"
+        android:layout_height="441dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.241">
+
+        <ImageView
+            android:id="@+id/cardimg0"
+            android:layout_width="wrap_content"
+            android:layout_height="157dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="49dp"
+            android:layout_marginLeft="49dp"
+            android:layout_marginTop="58dp"
+            android:layout_marginEnd="261dp"
+            android:layout_marginRight="261dp"
+            android:layout_marginBottom="226dp" />
+
+        <ImageView
+            android:id="@+id/cardimg1"
+            android:layout_width="wrap_content"
+            android:layout_height="157dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="74dp"
+            android:layout_marginLeft="74dp"
+            android:layout_marginTop="59dp"
+            android:layout_marginEnd="236dp"
+            android:layout_marginRight="236dp"
+            android:layout_marginBottom="225dp" />
+
+        <ImageView
+            android:id="@+id/cardimg2"
+            android:layout_width="wrap_content"
+            android:layout_height="157dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="100dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="61dp"
+            android:layout_marginEnd="210dp"
+            android:layout_marginRight="210dp"
+            android:layout_marginBottom="223dp" />
+
+        <ImageView
+            android:id="@+id/cardimg3"
+            android:layout_width="wrap_content"
+            android:layout_height="157dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="128dp"
+            android:layout_marginLeft="128dp"
+            android:layout_marginTop="58dp"
+            android:layout_marginEnd="182dp"
+            android:layout_marginRight="182dp"
+            android:layout_marginBottom="226dp" />
+
+        <ImageView
+            android:id="@+id/cardimg4"
+            android:layout_width="wrap_content"
+            android:layout_height="157dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="151dp"
+            android:layout_marginLeft="151dp"
+            android:layout_marginTop="59dp"
+            android:layout_marginEnd="159dp"
+            android:layout_marginRight="159dp"
+            android:layout_marginBottom="225dp" />
+
+        <ImageView
+            android:id="@+id/cardimg5"
+            android:layout_width="wrap_content"
+            android:layout_height="157dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="175dp"
+            android:layout_marginLeft="175dp"
+            android:layout_marginTop="62dp"
+            android:layout_marginEnd="135dp"
+            android:layout_marginRight="135dp"
+            android:layout_marginBottom="222dp" />
+
+        <ImageView
+            android:id="@+id/cardimg6"
+            android:layout_width="wrap_content"
+            android:layout_height="157dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="198dp"
+            android:layout_marginLeft="198dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginEnd="112dp"
+            android:layout_marginRight="112dp"
+            android:layout_marginBottom="224dp" />
+
+        <ImageView
+            android:id="@+id/cardimg7"
+            android:layout_width="wrap_content"
+            android:layout_height="157dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="222dp"
+            android:layout_marginLeft="222dp"
+            android:layout_marginTop="59dp"
+            android:layout_marginEnd="88dp"
+            android:layout_marginRight="88dp"
+            android:layout_marginBottom="225dp" />
+
+        <ImageView
+            android:id="@+id/cardimg8"
+            android:layout_width="wrap_content"
+            android:layout_height="157dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="250dp"
+            android:layout_marginLeft="250dp"
+            android:layout_marginTop="58dp"
+            android:layout_marginEnd="60dp"
+            android:layout_marginRight="60dp"
+            android:layout_marginBottom="226dp" />
+
+        <ImageView
+            android:id="@+id/cardimg9"
+            android:layout_width="wrap_content"
+            android:layout_height="157dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="279dp"
+            android:layout_marginLeft="279dp"
+            android:layout_marginTop="58dp"
+            android:layout_marginEnd="31dp"
+            android:layout_marginRight="31dp"
+            android:layout_marginBottom="226dp" />
+
+        <ImageView
+            android:id="@+id/currCard"
+            android:layout_width="131dp"
+            android:layout_height="194dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="139dp"
+            android:layout_marginRight="139dp"
+            android:layout_marginBottom="18dp" />
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
